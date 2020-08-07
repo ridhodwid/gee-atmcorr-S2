@@ -89,3 +89,9 @@ jupyter-notebook /gee-atmcorr-S2/jupyer_notebooks/sentinel2_atmospheric_correcti
 ```
 
 ### Usage on Kaggle
+
+If you don't have Python or Jupyter Notebook installed on your computer, you can use online notebook such as Kaggle (Google Collab wouldn't work, unfortunately), which can be accessed [here](https://www.kaggle.com/fifauzan/sentinel2-atmospheric-correction-py6s/edit/run/38660519).
+
+Prior to running the code, you should enable the internet on the notebook settings. You should also logged in to the google account linked with Google Earth Engine since it would use the GEE API.
+
+![images](kaggle.jpg)
