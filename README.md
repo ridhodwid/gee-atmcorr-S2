@@ -98,4 +98,4 @@ Prior to running the code, you should enable the internet on the notebook settin
 
 The process should took less than five minutes. Once it done, you could access the corrected image on your Earth Engine asset.
 
-![result]((https://github.com/afif-fauzan/gee-atmcorr-S2/blob/master/gee-result.jpg?raw=true))
+![result](https://github.com/afif-fauzan/gee-atmcorr-S2/blob/master/gee-result.jpg?raw=true)
