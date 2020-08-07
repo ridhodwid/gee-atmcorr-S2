@@ -1,9 +1,10 @@
 ____
-# !
-## This repo is no longer under development
-and is probably broken given the pace of the Google Earth Engine team. I am now the CEO of [Earthscope](https://earthscope.io), a startup company from [Entrepreneur First](https://joinef.com), so have no time to squash any bugs that I introduced (sorry) or that have since appeared... 
+### Notes from the author
+> # !
+> ## This repo is no longer under development
+> and is probably broken given the pace of the Google Earth Engine team. I am now the CEO of [Earthscope](https://earthscope.io), > a startup company from [Entrepreneur First](https://joinef.com), so have no time to squash any bugs that I introduced (sorry) or > that have since appeared...
 
-The rest of the repo is 'as was', use at your own peril.
+> The rest of the repo is 'as was', use at your own peril.
 ____
 
 
@@ -23,7 +24,7 @@ The following [docker](https://www.docker.com/community-edition) container has a
 
 You can also build a docker container from scratch using this [Dockerfile](https://github.com/gee-community/ee-jupyter-contrib/tree/master/docker/atmcorr-ee) from the [gee-community](https://github.com/gee-community) repo.
 
-#### Alternative: Manual installation 
+#### Alternative: Manual installation
 
 This repo has the following prerequisites
 
@@ -82,9 +83,7 @@ your newly committed image should be at the top of the list.
 You can now start the note book with
 
 ```
-docker run -i -t -p 8888:8888 gee-atmcorr-s2:myauth 
+docker run -i -t -p 8888:8888 gee-atmcorr-s2:myauth
 
 jupyter-notebook /gee-atmcorr-S2/jupyer_notebooks/sentinel2_atmospheric_correction.ipynb --ip='*' --port=8888 --allow-root
 ```
-
-
