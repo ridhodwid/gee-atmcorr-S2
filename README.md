@@ -1,4 +1,4 @@
-### Introduction | Installation | Usage on Jupyter Notebook | Usage on Kaggle
+### [Introduction](https://github.com/afif-fauzan/gee-atmcorr-S2#inroduction) | [Installation and Usage on Jupyter Notebook](https://github.com/afif-fauzan/gee-atmcorr-S2#installation) | [Usage on Kaggle](https://github.com/afif-fauzan/gee-atmcorr-S2#usage-on-kaggle)
 ____
 ### Notes from the [author](https://github.com/samsammurphy/gee-atmcorr-S2)
 > ### !
@@ -12,7 +12,7 @@ ____
 
 ### Introduction
 
-Atmospheric correction of Sentinel 2 imagery in Google Earth Engine using [Py6S](http://py6s.readthedocs.io/en/latest/).
+Atmospheric correction of Sentinel 2 imagery in Google Earth Engine using [Py6S](http://py6s.readthedocs.io/en/latest/). Runnable on Jupyter Notebook and Kaggle. Doesn't work on Google Collab. If you wish to run it on Kaggle, jump to [Usage on Kaggle](https://github.com/afif-fauzan/gee-atmcorr-S2#usage-on-kaggle).
 
 ### Installation
 
@@ -87,3 +87,5 @@ docker run -i -t -p 8888:8888 gee-atmcorr-s2:myauth
 
 jupyter-notebook /gee-atmcorr-S2/jupyer_notebooks/sentinel2_atmospheric_correction.ipynb --ip='*' --port=8888 --allow-root
 ```
+
+### Usage on Kaggle
