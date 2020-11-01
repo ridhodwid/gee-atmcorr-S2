@@ -1,8 +1,8 @@
 This repository is forked from
 https://github.com/samsammurphy/gee-atmcorr-S2
 
-Recomended platform to run 
-https://www.kaggle.com/
+Kaggle resource
+https://www.kaggle.com/ridhodwid/sentinel2-atmospheric-correction
 ____ 
 # !
 ## This repo is no longer under development
